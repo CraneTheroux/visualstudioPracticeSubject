@@ -15,8 +15,12 @@ public:
 	workerManager();
 	//展示菜单方法
 	void showMenu();
+	//根据职工的数据以及职工数据，初始化workerManager中的Worker ** m_EmpArray 指针
+	void init_emp();
 	//退出程序方法
 	void exitTheSystem();
+	//记录文件员工个数
+	int getSum();
 	//添加元素方法
 	void addEmp();
 	//保存方法

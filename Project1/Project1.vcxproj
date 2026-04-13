@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="day5%282%29.cpp" />
     <ClCompile Include="day1.cpp" />
     <ClCompile Include="day2.cpp" />
     <ClCompile Include="day3App.cpp" />
     <ClCompile Include="day3_manager.cpp" />
+    <ClCompile Include="day4.cpp" />
+    <ClCompile Include="day5.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="financialManager.cpp" />
     <ClCompile Include="test.cpp" />
@@ -141,6 +144,9 @@
     <ClInclude Include="Employee.h" />
     <ClInclude Include="financialManager.h" />
     <ClInclude Include="worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="day52" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

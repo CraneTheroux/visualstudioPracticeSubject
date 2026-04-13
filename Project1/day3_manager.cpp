@@ -5,10 +5,39 @@
 #include"financialManager.h"
 using namespace std;
 workerManager::workerManager() {
-	//初始化职工人数
-     empNum = 0;
-	//初始化职工数组
-	 workerArray = nullptr;
+	ifstream ifs;
+	ifs.open("empFile.txt" , ios::in);
+    if (!ifs.is_open()) {
+        cout << "thie file doesn't exist,the programme will start initialize" << endl;
+        //初始化职工人数
+        empNum = 0;
+        this->m_FileIsEmpty = true;
+        //初始化职工数组
+        workerArray = nullptr;
+        ifs.close();
+        return;
+    }
+    //文件存在，但文件内容为空
+    char ch;
+    ifs >> ch;
+    if (ifs.eof()) {
+        cout << "the file is empty,the programme will start the initalizing method" << endl;
+        //初始化职工人数
+        empNum = 0;
+        this->m_FileIsEmpty = true;
+        //初始化职工数组
+        workerArray = nullptr;
+        ifs.close();
+        return;
+    
+    }
+    int num = this->getSum();
+    cout << "the summary of worker numbers:" << num << endl;
+    this->empNum = num;
+
+	
+   
+    
 
 }
 void workerManager::showMenu() {
@@ -74,7 +103,7 @@ void workerManager::addEmp() {
                 break;
             };
            
-            
+            //把上面刚创建的worker指针对象所指向的内容，存入newSpace数组
 			newSpace[this->empNum + i] = worker;
 
 
@@ -83,6 +112,7 @@ void workerManager::addEmp() {
 		delete[] this->workerArray;
 		this->workerArray = newSpace;
         this->empNum = newSize;
+        this->m_FileIsEmpty = false;
         this->save();
         cout << "the information added directly" << endl;
         system("pause");
@@ -93,11 +123,13 @@ void workerManager::addEmp() {
     }
     
 }
+//文件写入方法
 void workerManager::save() {
     ofstream ofs;
     ofs.open(FileName, ios::out);
+    
     for (int i = 0; i <this->empNum;i++) {
-        ofs << this->workerArray[i]->id << " " << this->workerArray[i]->name << endl;
+        ofs << this->workerArray[i]->id << " " << this->workerArray[i]->name << this->workerArray[i]->deptId<< endl;
     }
     ofs.close();
 }
@@ -110,4 +142,16 @@ void workerManager::exitTheSystem() {
     system("pause");
     exit(0);
 }
+int workerManager::getSum() {
+    ifstream ifs;
+    int id;
+    string name;
+    int deptId;
+    int num = 0;
+    ifs.open(FileName, ios::in);
+    while (ifs >> id && ifs >> name && ifs >> deptId) {
+        num++;
+    }
+    return num;
 
+}
