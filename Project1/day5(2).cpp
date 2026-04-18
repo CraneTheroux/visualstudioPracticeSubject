@@ -87,14 +87,14 @@ void showScore(std::vector<team>&v)
 	}
 
 }
-int main(){
-	srand((unsigned int)time(NULL));
-	std::vector<team>v;
-	createPerson(v);
-	setScore(v);
-	showScore(v);
-	std::cout << "hello world!" << std::endl;
-	std::cout << "third try" << std::endl;
-	std::cout << "fourth" << std::endl;
-	std::cout << "fifth" << std::endl;
-}
+//int main(){
+//	srand((unsigned int)time(NULL));
+//	std::vector<team>v;
+//	createPerson(v);
+//	setScore(v);
+//	showScore(v);
+//	std::cout << "hello world!" << std::endl;
+//	std::cout << "third try" << std::endl;
+//	std::cout << "fourth" << std::endl;
+//	std::cout << "fifth" << std::endl;
+//}
