@@ -93,5 +93,6 @@ int main(){
 	createPerson(v);
 	setScore(v);
 	showScore(v);
+	std::cout << "hello world!" << std::endl;
 
 }
