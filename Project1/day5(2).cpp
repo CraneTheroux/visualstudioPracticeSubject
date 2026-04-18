@@ -94,8 +94,6 @@ int main(){
 	setScore(v);
 	showScore(v);
 	std::cout << "hello world!" << std::endl;
-
-	std::cout << "second try" << std::endl;
-
+>>>>>>>>> Temporary merge branch 2
 
 }
