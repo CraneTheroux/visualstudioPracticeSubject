@@ -1,1 +1,2 @@
 # visualstudioPracticeSubject
+我自己开的练习仓库，要什么readme啊混蛋
