@@ -5,35 +5,10 @@
 #include"financialManager.h"
 using namespace std;
 workerManager::workerManager() {
-	ifstream ifs;
-	ifs.open("empFile.txt" , ios::in);
-    if (!ifs.is_open()) {
-        cout << "thie file doesn't exist,the programme will start initialize" << endl;
-        //初始化职工人数
-        empNum = 0;
-        this->m_FileIsEmpty = true;
-        //初始化职工数组
-        workerArray = nullptr;
-        ifs.close();
-        return;
-    }
-    //文件存在，但文件内容为空
-    char ch;
-    ifs >> ch;
-    if (ifs.eof()) {
-        cout << "the file is empty,the programme will start the initalizing method" << endl;
-        //初始化职工人数
-        empNum = 0;
-        this->m_FileIsEmpty = true;
-        //初始化职工数组
-        workerArray = nullptr;
-        ifs.close();
-        return;
-    
-    }
-    int num = this->getSum();
-    cout << "the summary of worker numbers:" << num << endl;
-    this->empNum = num;
+	//初始化职工人数
+     empNum = 0;
+	//初始化职工数组
+	 workerArray = nullptr;
 
 	
    
