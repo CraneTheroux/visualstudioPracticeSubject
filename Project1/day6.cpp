@@ -3,6 +3,14 @@
 #include<queue>
 #include<list>
 #define MAX 100
+void printTheList( std::list<int>&l)
+{
+	for (std::list<int>::iterator it = l.begin(); it != l.end(); it++)
+	{
+		std::cout << *it << " ";
+		
+	}
+}
 int main()
 {
 	
@@ -13,22 +21,20 @@ int main()
 		l1.push_back(i);
 
 	}
-	for (std::list<int>::iterator it = l1.begin(); it!=l1.end(); it++)
-	{
-		std::cout << *it<< " ";
-	}
-
-	std::list<int>l2;
-	for (int i = 0; i < MAX; ++i)
-	{
-		l2.push_front(i);
-	}
-	std::cout << "-----------------------------------------" << std::endl;
-	for (std::list<int>::iterator it = l2.begin(); it != l2.end(); it++)
-	{
-		std::cout << *it << " ";
-	}
 	
+	//std::list<int>l3 = l2;
+	std::list<int>l4;
+	l4.assign(l1.begin(), l1.end());
+	std::cout << "before erase:";
+	printTheList(l4);
+	std::cout << "-------------------------------------------------------------------" << std::endl;
+	std::list<int>::iterator begin= l4.begin();
+	std::list<int>::iterator end = l4.end();
+	auto begin1 = l4.erase(++begin, end);
+	printTheList(l4);
+	l4.insert(begin1, 5, 10);
+	printTheList(l4);
+
 	
 
 }
