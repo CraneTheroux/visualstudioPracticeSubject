@@ -60,6 +60,9 @@
     <ClCompile Include="day6_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="day2.h">
