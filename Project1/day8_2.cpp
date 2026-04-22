@@ -71,18 +71,18 @@ void showTheGroup(std::multimap<int,worker>m)
 	}
 
 }
-int main()
-{
-	//创建员工类
-	worker worker1;
-	//随机数种子
-	srand((unsigned int)time(NULL));
-	//创建员工姓名和工资的信息类vworker
-	std::vector<worker>vWorker;
-	nameset(vWorker);
-
-	std::multimap<int, worker>m;
-	
-	randomDepartmentInformation(vWorker, m);
-	showTheGroup(m);
-}
+//int main()
+//{
+//	//创建员工类
+//	worker worker1;
+//	//随机数种子
+//	srand((unsigned int)time(NULL));
+//	//创建员工姓名和工资的信息类vworker
+//	std::vector<worker>vWorker;
+//	nameset(vWorker);
+//
+//	std::multimap<int, worker>m;
+//	
+//	randomDepartmentInformation(vWorker, m);
+//	showTheGroup(m);
+//}
