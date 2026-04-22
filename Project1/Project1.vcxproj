@@ -144,6 +144,7 @@
     <ClCompile Include="day8_2.cpp" />
     <ClCompile Include="day8_3.cpp" />
     <ClCompile Include="day9.cpp" />
+    <ClCompile Include="day9_2.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="financialManager.cpp" />
     <ClCompile Include="test.cpp" />
