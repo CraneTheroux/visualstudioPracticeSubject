@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="day10.cpp" />
     <ClCompile Include="day5%282%29.cpp" />
     <ClCompile Include="day1.cpp" />
     <ClCompile Include="day2.cpp" />
@@ -145,6 +146,7 @@
     <ClCompile Include="day8_3.cpp" />
     <ClCompile Include="day9.cpp" />
     <ClCompile Include="day9_2.cpp" />
+    <ClCompile Include="day9_3aitesting.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="financialManager.cpp" />
     <ClCompile Include="test.cpp" />

@@ -1,4 +1,5 @@
-﻿#include<iostream>
+﻿
+#include<iostream>
 #include<vector>
 #include<algorithm>
 #define MAX 10
@@ -54,24 +55,24 @@ std::vector<int> testing2(std::vector<int>&v,std::vector<int>&v2)
 	return vTarget;
 }
 
-int main()
-{	
-	system("chcp 936");
-	std::vector<int>v1;
-	std::vector<int>v2;
-	/*Person p1(18, "隼");
-	Person p2(19, "量子");
-	v.push_back(p1);
-	v.push_back(p2);
-	v.push_back(p1);
-	v.push_back(p1);*/
-
-	
-	
-	std::vector<int>vTarget = testing2(v1, v2);
-	for (std::vector<int>::iterator it   = vTarget.begin();it!=vTarget.end()  ;it ++)
-	{
-		std::cout << *it << " ";
-	}
-	
-}
+//int main()
+//{	
+//	system("chcp 936");
+//	std::vector<int>v1;
+//	std::vector<int>v2;
+//	/*Person p1(18, "隼");
+//	Person p2(19, "量子");
+//	v.push_back(p1);
+//	v.push_back(p2);
+//	v.push_back(p1);
+//	v.push_back(p1);*/
+//
+//	
+//	
+//	std::vector<int>vTarget = testing2(v1, v2);
+//	for (std::vector<int>::iterator it   = vTarget.begin();it!=vTarget.end()  ;it ++)
+//	{
+//		std::cout << *it << " ";
+//	}
+//	
+//}
