@@ -2,6 +2,7 @@
 #include<iostream>
 #include<string>
 #include<random>
+#include"speaker.h"
 #include<vector>
 #include<map>
 class speechManager
@@ -27,7 +28,7 @@ public:
 	//第三轮选手编号名单
 	std::vector<int>vThird;
 	//编号与对应选手容器
-	std::map<int, speaker>mFinal;
+	std::map<int,speaker>mFinal;
 	//存放比赛轮数变量
 	int count;
 };
