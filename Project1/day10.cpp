@@ -77,5 +77,5 @@ int main()
 	//std::cout << "after the conditional replacement:" << std::endl;
 	//std::for_each(v.begin(), v.end(), myPrint());
 
-
+std::cout<<"try if it can work on vsc"<<std::endl;
 }
