@@ -2,6 +2,7 @@
 #include<iostream>
 #include<string>
 #include<random>
+#include"speaker.h"
 #include<vector>
 #include<map>
 class speechManager
@@ -20,6 +21,10 @@ public:
 	~speechManager();
 	//选手姓名生成器
 	void createTheName();
+	//比赛框架
+	void startTheSpeech();
+	//抽签函数
+	void speechDraw();
 	//第一轮选手名单编号
 	std::vector<int>vFirst;
 	//第二轮选手编号名单
@@ -27,7 +32,7 @@ public:
 	//第三轮选手编号名单
 	std::vector<int>vThird;
 	//编号与对应选手容器
-	std::map<int, speaker>mFinal;
+	std::map<int,speaker>mFinal;
 	//存放比赛轮数变量
 	int count;
 };

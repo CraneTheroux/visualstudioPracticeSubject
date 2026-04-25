@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="flight_tracker.h" />
     <ClInclude Include="speaker.h" />
   </ItemGroup>
   <ItemGroup>

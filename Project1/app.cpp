@@ -1,9 +1,15 @@
 ﻿#include"speechMananger.h"
+#include<string>
 int main()
 {
 	//创建管理系统
 	speechManager sm;
+	for (std::map<int,speaker>::iterator it = sm.mFinal.begin();it!=sm.mFinal.end();it ++)
+	{
+		std::cout << it->first << ",name:" << it->second.m_name<<".score:"<<it->second.m_score[0]<<std::endl;
+	}
 	
+
 	int userChoice = 0;
 	while (true) {
 		sm.showMenu();
@@ -14,8 +20,9 @@ int main()
 		case 0:
 			sm.exitTheSystem();
 		case 1:
+			sm.startTheSpeech();
 
+			std::cin.get();
 		}
-		std::cin.get();
 	}
 }

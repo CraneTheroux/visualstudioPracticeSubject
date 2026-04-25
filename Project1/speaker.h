@@ -8,4 +8,5 @@ public:
 	//选手分数
 	double m_score[2];
 
+
 };
