@@ -15,97 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="day1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day3_manager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day3App.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Employee.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="financialManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day4.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day5.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day5%282%29.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day6.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day6_2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day6_3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day6_4.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day7.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day7_2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day8.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day8_2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day8_3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day9.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day9_2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day9_3aitesting.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day10.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="day2.h">
+    <ClInclude Include="flight_tracker.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="day3_manager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="worker.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="financialManager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Employee.h">
+    <ClInclude Include="speaker.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="day52" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="speechManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="speechMananger.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="speaker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

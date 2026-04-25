@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -127,40 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="day10.cpp" />
-    <ClCompile Include="day5%282%29.cpp" />
-    <ClCompile Include="day1.cpp" />
-    <ClCompile Include="day2.cpp" />
-    <ClCompile Include="day3App.cpp" />
-    <ClCompile Include="day3_manager.cpp" />
-    <ClCompile Include="day4.cpp" />
-    <ClCompile Include="day5.cpp" />
-    <ClCompile Include="day6.cpp" />
-    <ClCompile Include="day6_2.cpp" />
-    <ClCompile Include="day6_3.cpp" />
-    <ClCompile Include="day6_4.cpp" />
-    <ClCompile Include="day7.cpp" />
-    <ClCompile Include="day7_2.cpp" />
-    <ClCompile Include="day8.cpp" />
-    <ClCompile Include="day8_2.cpp" />
-    <ClCompile Include="day8_3.cpp" />
-    <ClCompile Include="day9.cpp" />
-    <ClCompile Include="day9_2.cpp" />
-    <ClCompile Include="day9_3aitesting.cpp" />
-    <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="financialManager.cpp" />
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="test1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="day2.h" />
-    <ClInclude Include="day3_manager.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="financialManager.h" />
-    <ClInclude Include="worker.h" />
+    <ClInclude Include="flight_tracker.h" />
+    <ClInclude Include="speaker.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="day52" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="speaker.cpp" />
+    <ClCompile Include="speechManager.cpp" />
+    <ClCompile Include="speechMananger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
