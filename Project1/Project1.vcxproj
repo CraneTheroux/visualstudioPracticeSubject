@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="speaker.h" />
+    <ClInclude Include="speechMananger.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="day52" />
@@ -136,7 +137,6 @@
     <ClCompile Include="app.cpp" />
     <ClCompile Include="speaker.cpp" />
     <ClCompile Include="speechManager.cpp" />
-    <ClCompile Include="speechMananger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

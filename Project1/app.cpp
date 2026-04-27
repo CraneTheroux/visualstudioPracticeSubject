@@ -4,13 +4,14 @@ int main()
 {
 	//创建管理系统
 	speechManager sm;
-	for (std::map<int,speaker>::iterator it = sm.mFinal.begin();it!=sm.mFinal.end();it ++)
+	for (std::map<int,speaker>::iterator it = sm.mMenu.begin();it!=sm.mMenu.end();it ++)
 	{
 		std::cout << it->first << ",name:" << it->second.m_name<<".score:"<<it->second.m_score[0]<<std::endl;
 	}
 	
 
 	int userChoice = 0;
+	
 	while (true) {
 		sm.showMenu();
 		std::cout << "please select your option:";

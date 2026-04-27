@@ -29,10 +29,12 @@ public:
 	std::vector<int>vFirst;
 	//第二轮选手编号名单
 	std::vector<int>vSecond;
-	//第三轮选手编号名单
-	std::vector<int>vThird;
+	//冠军容器
+	std::vector<int>vVictory;
+	
+	
 	//编号与对应选手容器
-	std::map<int,speaker>mFinal;
+	std::map<int,speaker>mMenu;
 	//存放比赛轮数变量
 	int count;
 };
