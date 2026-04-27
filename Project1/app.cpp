@@ -20,10 +20,20 @@ int main()
 		{
 		case 0:
 			sm.exitTheSystem();
+			
 		case 1:
-			sm.startTheSpeech();
-
+			sm.SpeechContest();
 			std::cin.get();
+			break;
+		case 2:
+			sm.saveTheFiles();
+			break;
+		case 3:
+			sm.clearTheFiles();
+			break;
+		case 4:
+			sm.readTheFiles();
+			break;
 		}
 	}
 }

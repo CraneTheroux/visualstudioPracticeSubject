@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "deepseek": {
+      "models": {
+        "deepseek-v4-pro": {
+          "limit": {
+            "context": 1048576,
+            "output": 8192
+          }
+        }
+      }
+    }
+  }
+}
