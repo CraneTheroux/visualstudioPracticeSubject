@@ -1,0 +1,7 @@
+#ifndef EXAMPLESOFPUSHBUTTON_H
+#define EXAMPLESOFPUSHBUTTON_H
+#include<QPushButton>
+#endif // EXAMPLESOFPUSHBUTTON_H
+class MyPushButton:public QPushButton{
+    Q
+};

@@ -1,4 +1,5 @@
 {
-    "trae.tab.enableRename": false,
-    "trae.tab.enableAutoImport": false
+    "cmake.sourceDirectory": "${workspaceFolder}/qtLearning",
+    "cmake.buildDirectory": "${workspaceFolder}/qtLearning/build",
+    "cmake.configureOnOpen": false
 }

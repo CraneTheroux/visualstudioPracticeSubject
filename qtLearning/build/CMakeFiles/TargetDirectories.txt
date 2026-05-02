@@ -1,0 +1,9 @@
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/qtLearning.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/edit_cache.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/rebuild_cache.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/list_install_components.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/install.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/install/local.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/install/strip.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/qtLearning_autogen_timestamp_deps.dir
+E:/visualstudioPracticeSubject/qtLearning/build/CMakeFiles/qtLearning_autogen.dir
